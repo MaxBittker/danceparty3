@@ -1,0 +1,20 @@
+{
+  "name": "parcel-preact-kit",
+  "version": "1.0.0",
+  "dependencies": {
+    "emotion": "^8.0.12",
+    "preact": "^8.2.7",
+    "preact-emotion": "^8.0.12",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.5.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --no-cache -p 8080",
+    "build":
+      "parcel build src/index.html --no-cache --out-dir build --public-url ./"
+  }
+}
